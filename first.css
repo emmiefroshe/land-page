@@ -1,0 +1,105 @@
+table{
+font-family: courier;
+margin: absolute;
+background-color:blue;
+}
+
+html,body {
+margin: 0px;
+padding: 0px;
+border: 0px;
+left: 0px;
+top: 0px;
+}
+
+header{
+	font-family: cursive;
+	
+}
+
+.float{
+	display: flex;
+	background-color: #A8FF61;
+}
+h1{
+font-family: cursive;
+}
+
+body{
+	background-color: #A8FF61;
+	
+}
+.green{
+	background-color: #B31800;
+
+	
+}
+.float{
+	text-align : center;
+	text-transform : 3px 3px 5px blue;
+}
+
+li:nth-child(odd){
+	background-color: grey;
+}
+
+li:nth-child(even){
+	background-color: azure;
+}
+
+
+.blue{
+	font-family: courier;
+	background-color: black;
+	margin: absolute;
+color: green;	
+}
+
+.scrat{
+	padding: 10px;
+	
+}
+span{
+	color: crimson;
+	padding: 0 4em;
+	transition: opacity 0.1s;
+}
+
+.transition:hover      span:not(:hover){
+	opacity: 0.4;
+}
+
+.reference {
+  position: relative;
+  background: tomato;
+  width: 100px;
+  height: 100px;
+}
+.popout-menu {
+  position: absolute;
+  visibility: hidden;
+  left: 100%;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin: absolute;
+}
+.reference:hover > .popout-menu,
+.reference:focus > .popout-menu,
+.reference:focus-within > .popout-menu {
+  visibility: visible;
+}
+
+::selection {
+  background: aquamarine;
+  color: black;
+}
+.custom-text-selection::selection {
+  background: deeppink;
+  color: white;
+}
+
+
+
+
+
